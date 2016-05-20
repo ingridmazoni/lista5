@@ -1,0 +1,34 @@
+import java.util.Collection;
+
+public class Categoria {
+
+	private String categoria;
+
+	private String descricao;
+
+	private String subcategoria;
+
+	public String getCategoria() {
+		return categoria;
+	}
+
+	public void setCategoria(String categoria) {
+		this.categoria = categoria;
+	}
+
+	public String getDescricao() {
+		return descricao;
+	}
+
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+
+	public String getSubcategoria() {
+		return subcategoria;
+	}
+
+	public void setSubcategoria(String subcategoria) {
+		this.subcategoria = subcategoria;
+	}
+}
